@@ -8,16 +8,16 @@ export default function HomePage() {
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
-        <meta name="description" content="Home Page" />
+        <meta name="description" content="About Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar/>
 
       <main className={styles.main}>
-        <h1>Home Page</h1>
+      <h1>About Page</h1>
         <h1 className={styles.title}>
-          Ir a <Link href="/about">About</Link>
+          Ir a <Link href="/">Home</Link>
         </h1>
 
         <p className={styles.description}>
