@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>About</title>
         <meta name="description" content="About Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -22,7 +22,7 @@ export default function HomePage() {
 
         <p className={styles.description}>
           Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code}>pages/about.js</code>
         </p>        
       </main>      
     </div>
