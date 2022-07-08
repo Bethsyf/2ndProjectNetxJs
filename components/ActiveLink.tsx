@@ -7,6 +7,11 @@ const style = {
     textDecoration: 'underlin'
 }
 
+interface Props {
+  text: string;
+  href: string;
+}
+
 const ActiveLink = ( { text, href } ) => {
 
     const { asPath }  = useRouter();
